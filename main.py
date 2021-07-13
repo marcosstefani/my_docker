@@ -53,6 +53,5 @@ class Application:
         self.details = Details()
         self.details.show()
 
-
 if __name__ == '__main__':
     Application()
