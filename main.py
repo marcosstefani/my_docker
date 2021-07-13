@@ -32,7 +32,7 @@ class ContainerList(QListWidget):
 class Docker:
     def __init__(self):
         self.client = docker.from_env()
-        self.containers = self.client.containers.list(all=False)
+        self.containers = self.client.containers.list(all=True)
 
 class Application:
     def __init__(self):
